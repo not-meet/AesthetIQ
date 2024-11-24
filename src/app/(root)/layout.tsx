@@ -1,13 +1,16 @@
 import React from "react";
 
 const Layout = ({ children }: { children: React.ReactNode }) => {
-  <main className="auth">
-    <div className="root-container">
-      <div className="wrapper">
-        {children}
+  return (
+    <main className="auth">
+      <div className="root-container">
+        <div className="wrapper">
+          {children}
+        </div>
       </div>
-    </div>
-  </main>
+    </main>
+
+  )
 }
 
 export default Layout;
