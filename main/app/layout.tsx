@@ -10,7 +10,7 @@ const IBMPlex = IBM_Plex_Sans({
   variable: '--font-ibm-plex'
 });
 export const metadata: Metadata = {
-  title: "AesthetIq",
+  title: "AesthetIQ",
   description: "AI powered image generation",
 };
 
